@@ -1,0 +1,19 @@
+{
+  "name": "userService",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.5",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "grpc": "^1.24.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  },
+  "scripts": {
+    "user:service": "nodemon src/index.js"
+  }
+}
